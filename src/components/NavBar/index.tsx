@@ -71,6 +71,11 @@ export const PageTabs = () => {
           <Trans>Pools</Trans>
         </MenuItem>
       </Box> 
+      <Box display={{ sm: 'flex', lg: 'none', xxl: 'flex' }} width="full">
+        <MenuItem href="https://momo-erc.com/dapp" dataTestId="pool-nav-link">
+          <Trans>Dapp</Trans>
+        </MenuItem>
+      </Box> 
     </>
   )
 }
